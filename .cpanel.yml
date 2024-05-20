@@ -1,0 +1,8 @@
+---
+  deployment:
+    tasks:
+      - export DEPLOYPATH=/home/cvallejoiquitos/public_html/libroreclamaciones.cvallejoiquitos.com/
+      - /bin/rsync -av public/ $DEPLOYPATH
+      - export DEPLOYPATH=/home/cvallejoiquitos/web_libroreclamaciones/
+      - /bin/rsync -av ./ $DEPLOYPATH
+
