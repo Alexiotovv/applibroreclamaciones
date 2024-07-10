@@ -54,7 +54,7 @@
                                 <div class="font-35 text-success"><i class='bx bxs-check-circle'></i>
                                 </div>
                                 <div class="ms-3">
-                                    <h6 class="mb-0 text-success">{{Session::get('data')}}</h6>
+                                    <h6 class="mb-0 text-success">{{Session::get('data')}}, Gracias, nos pondremos en contacto con Ud. a la brevedad.</h6>
                                 </div>
                             </div>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="form-group">
                     <label for="monto">Monto</label>
-                    <input type="text" class="form-control" id="monto" name="monto" maxlength="250">
+                    <input type="text" class="form-control" id="monto" name="monto" maxlength="250" required>
                 </div>
                 <br>
                 <div class="form-group">
