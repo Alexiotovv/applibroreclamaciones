@@ -75,9 +75,11 @@ class LibroreclamacionesController extends Controller
         ];
     
 
-         // Enviar al correo electrónico
-        Mail::to('colcoopcesarvallejo@gmail.com')
-        ->cc(['colegio_vallejo@yahoo.com'])
+        // Enviar al correo electrónico
+        // Mail::to('colcoopcesarvallejo@gmail.com')
+        // ->cc(['colegio_vallejo@yahoo.com','alexiotovv@gmail.com'])
+        Mail::to('alexiotovv@gmail.com')
+        ->cc(['gpsalexvasquez@gmail.com','multiserviciosayw@gmail.com'])
         ->send(new ReclamoCreado($reclamo));
 
         return redirect()->route('reclamaciones.index')->with('data','Registro Correcto');
