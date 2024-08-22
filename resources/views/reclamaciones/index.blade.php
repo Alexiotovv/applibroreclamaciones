@@ -31,7 +31,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Página Principal <span class="sr-only"></span></a>
+                <a class="nav-link" href="https://cvallejoiquitos.com">Página Principal <span class="sr-only"></span></a>
             </li>
             
         </ul>
